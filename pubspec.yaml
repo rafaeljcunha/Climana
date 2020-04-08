@@ -1,0 +1,81 @@
+name: vianaclima
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+2
+  date_format: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/ensolarado.png
+    - images/sol_e_chuva.png
+    - images/sol_entre_nuvens.png
+    - images/tempestade.png
+    - images/thermometer.png
+    - images/wind.png
+    - images/1.jpg
+    - images/1n.jpg
+    - images/2.jpg
+    - images/2n.jpg
+    - images/2r.jpg
+    - images/2rn.jpg
+    - images/3.jpg
+    - images/3n.jpg
+    - images/3tm.jpg
+    - images/4.jpg
+    - images/4n.jpg
+    - images/4r.jpg
+    - images/4rn.jpg
+    - images/5.jpg
+    - images/5n.jpg
+    - images/6.jpg
+    - images/6n.jpg
+    - images/7.jpg
+    - images/7n.jpg
+    - images/8.jpg
+    - images/8n.jpg
+    - images/9.jpg
+    - images/9n.jpg
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+
+    - family: Corsiva
+      fonts:
+        - asset: fonts/NK_Mono.ttf
+
